@@ -3,7 +3,7 @@ import torch
 import tqdm
 
 from utils.eval_utils import accuracy
-from utils.logging import AverageMeter, ProgressMeter
+from utils.logger import AverageMeter, ProgressMeter
 
 
 __all__ = ["train", "validate", "modifier"]

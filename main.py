@@ -13,7 +13,7 @@ import torch.utils.data
 import torch.utils.data.distributed
 
 from utils.conv_type import FixedSubnetConv, SampleSubnetConv
-from utils.logging import AverageMeter, ProgressMeter
+from utils.logger import AverageMeter, ProgressMeter
 from utils.net_utils import (
     set_model_prune_rate,
     freeze_model_weights,
